@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Comme&family=DynaPuff&family=Montserrat&display=swap");
+
+$colors: (
+  primary: #512da8,
+  primary-light: #ffa1c0,
+  accent: #ff4081,
+  links: #1277dc,
+);
+
+$fonts: "Montserrat", sans-serif;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $fonts;
+  background-color: color(primary-light);
+}
+
+h1 {
+  color: color(primary);
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  color: color(primary);
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: color(links);
+  text-decoration: none;
+
+  &:hover {
+    color: color(primary);
+    text-decoration: underline;
+  }
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.small10 {
+  width: 10%;
+  height: 10%;
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Comme&family=DynaPuff&family=Montserrat&display=swap");
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffa1c0;
+}
+
+h1 {
+  color: #512da8;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  color: #512da8;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #1277dc;
+  text-decoration: none;
+}
+a:hover {
+  color: #512da8;
+  text-decoration: underline;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.small10 {
+  width: 10%;
+  height: 10%;
+}/*# sourceMappingURL=main.css.map */
