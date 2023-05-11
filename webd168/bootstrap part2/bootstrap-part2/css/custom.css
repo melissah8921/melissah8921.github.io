@@ -11,4 +11,52 @@ caption {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+}
+.intro-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.opacity-transition {
+  opacity: 0.5;
+  transition: opacity 2s ease-in-out;
+}
+.opacity-transition:hover {
+  opacity: 1;
+}
+
+.about-image {
+  height: 20%;
+  width: 20%;
+}
+@keyframes growImageHue {
+  0% {
+    width: 20%;
+    height: 20%;
+    filter: hue-rotate(0deg);
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+    filter: hue-rotate(90deg);
+  }
+  50% {
+    width: 30%;
+    height: 30%;
+    filter: hue-rotate(180deg);
+  }
+  75% {
+    width: 45%;
+    height: 45%;
+    filter: hue-rotate(270deg);
+  }
+  100% {
+    width: 60%;
+    height: 60%;
+    filter: hue-rotate(360deg);
+  }
+}
+.about-image:hover {
+  animation: growImageHue 8s forwards;
 }/*# sourceMappingURL=custom.css.map */
