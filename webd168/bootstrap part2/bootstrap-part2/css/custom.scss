@@ -1,7 +1,20 @@
 caption {
   caption-side: top;
 }
+p {
+  color: #000;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+.table-dark {
+  --bs-table-bg: #a6fff9;
+}
 
+label {
+  color: #000;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
 .table-dark {
   --bs-table-bg: #a6fff9;
 }

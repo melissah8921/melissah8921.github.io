@@ -2,8 +2,24 @@ caption {
   caption-side: top;
 }
 
+p {
+  color: #000;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
 .table-dark {
-  --bs-table-bg: #84b5ff;
+  --bs-table-bg: #a6fff9;
+}
+
+label {
+  color: #000;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.table-dark {
+  --bs-table-bg: #a6fff9;
 }
 
 @media (max-width: 768px) {
@@ -59,4 +75,4 @@ caption {
 }
 .about-image:hover {
   animation: growImageHue 8s forwards;
-} /*# sourceMappingURL=custom.css.map */
+}/*# sourceMappingURL=custom.css.map */
